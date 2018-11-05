@@ -26,8 +26,10 @@ describe('login component', () => {
             status: 200
         });
 
-        const expectedActions = [{"isRequestLoading": true, "type": "REQUEST_LOADING"},
+        const expectedActions =  [{"isRequestLoading": true, "type": "REQUEST_LOADING"},
+            {"isRequestLoading": false, "type": "REQUEST_LOADING"},
             {"isRequestLoading": false, "type": "REQUEST_LOADING"}]
+
 
         return store.dispatch(rideCreateAction()
         ).then(() => {

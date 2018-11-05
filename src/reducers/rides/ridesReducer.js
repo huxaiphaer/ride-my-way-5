@@ -1,11 +1,11 @@
 import ACTION_TYPE from "../../actions/actionTypes";
 
-const RideReducer = (state = {}, action) => {
+const RideReducer = (state = {rides: []}, action) => {
     switch (action.type) {
         case ACTION_TYPE.START_GET_RIDES:
             return {
-                ...action.payload,
-                ...state
+                ...state,
+                rides: action.payload
 
             };
         default:

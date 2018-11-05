@@ -3,8 +3,8 @@ import {Button, Card, Col, Input, Row} from "react-materialize";
 import '../../../styles/styles.scss'
 
 export const SignUpComponent = ({handleSubmit, handleChange,handleRadiobuttonChange,obj})=>(
-
-        <Card s={12} m={2} l={9} >
+    <div className={'bg-image'}>
+        <Card s={12} m={2} l={9} className='landing-card'>
             <form onSubmit={handleSubmit}  >
                 <Row >
                     <Col s={12} m={12} l={12}>
@@ -30,4 +30,5 @@ export const SignUpComponent = ({handleSubmit, handleChange,handleRadiobuttonCha
                 </Row>
             </form>
         </Card>
+    </div>
 );
