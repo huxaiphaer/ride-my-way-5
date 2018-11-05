@@ -24,7 +24,7 @@ class Login extends React.Component {
     handleSubmit = (event) => {
         event.preventDefault();
         if (this.validateSignUp()) {
-            this.props.dispatch(userLoginAction(this.state, this));
+            this.props.dispatch(userLoginAction(this.state, this.props.history));
 
         }
     };

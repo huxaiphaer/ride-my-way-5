@@ -29,9 +29,7 @@ class SignUp extends React.Component {
         if (this.validateSignUp()) {
 
          this.props.dispatch(userSignUpAction(this.state, this.props.history));
-            this.setState({
-                loader : false
-            });
+
         }
 
     };
