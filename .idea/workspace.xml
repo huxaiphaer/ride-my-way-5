@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05aff424-79fe-450c-8d19-d5db876c1c76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -63,7 +60,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="4" />
           <entry key="js" value="1688" />
-          <entry key="txt" value="42" />
+          <entry key="txt" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -71,7 +68,7 @@
           <entry key="CSS" value="309" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="1688" />
-          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="PLAIN_TEXT" value="90" />
         </counts>
       </usages-collector>
     </session>
@@ -84,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -257,7 +254,7 @@
       <option name="presentableId" value="Default" />
       <updated>1541333436220</updated>
       <workItem from="1541333439071" duration="4746000" />
-      <workItem from="1541394927334" duration="13119000" />
+      <workItem from="1541394927334" duration="13169000" />
     </task>
     <task id="LOCAL-00001" summary="feat(signup): implement signup &#10;&#10;- ensure that users should signup.&#10;&#10;[Finishes #161696557]">
       <created>1541410922513</created>
@@ -266,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541410922513</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ch(setup project): set up &#10;&#10;- set up react project&#10;&#10;[Finishes #161713381]">
+      <created>1541411289977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541411289977</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -275,13 +279,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17865000" />
+    <option name="totallyTimeSpent" value="17915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7037702" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7037702" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" sideWeight="0.29608938" side_tool="true" weight="0.24947146" />
       <window_info id="npm" order="2" sideWeight="0.29608938" side_tool="true" weight="0.24947146" />
       <window_info id="Favorites" order="3" sideWeight="0.2962298" side_tool="true" visible="true" weight="0.24947146" />
@@ -293,7 +297,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49964765" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49964765" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003524" side_tool="true" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.7061311" weight="0.3325301" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -309,7 +313,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(signup): implement signup &#10;&#10;- ensure that users should signup.&#10;&#10;[Finishes #161696557]" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(signup): implement signup &#10;&#10;- ensure that users should signup.&#10;&#10;[Finishes #161696557]" />
+    <MESSAGE value="ch(setup project): set up &#10;&#10;- set up react project&#10;&#10;[Finishes #161713381]" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch(setup project): set up &#10;&#10;- set up react project&#10;&#10;[Finishes #161713381]" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.css" />
@@ -470,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
