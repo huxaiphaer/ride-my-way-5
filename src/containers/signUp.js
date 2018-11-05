@@ -1,8 +1,8 @@
 import React from 'react';
-import {SignUpComponent} from "../../components/signup/viewsignUp";
+import {SignUpComponent} from "../components/signup/viewsignUp";
 import PropTypes from 'prop-types';
 import {connect} from "react-redux";
-import userSignUpAction from "../../actions/auth/signup/signupActions";
+import userSignUpAction from "../actions/auth/signupActions";
 
 class SignUp extends React.Component {
 
@@ -10,13 +10,9 @@ class SignUp extends React.Component {
         super(props);
         this.state = {
             username: '',
-            usernameError:'',
             email: '',
-            emailError:'',
             password: '',
-            passwordError:'',
-            isdriver: 0,
-            loader: false
+            isdriver: 0
         };
 
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -27,14 +23,11 @@ class SignUp extends React.Component {
     handleSubmit = (event) => {
         event.preventDefault();
         if (this.validateSignUp()) {
-
-         this.props.dispatch(userSignUpAction(this.state, this.props.history));
-            this.setState({
-                loader : false
-            });
+         this.props.dispatch(userSignUpAction(this.state));
+         console.log('my state -->', this.state);
         }
-
     };
+
 
     handleRadiobuttonChange =(event)=>{
         this.setState({
@@ -53,11 +46,11 @@ class SignUp extends React.Component {
         let foundError = false;
 
         if (username.length === 0) {
-            this.setState({usernameError: 'username is required'});
+            this.setState({titleError: 'username is required'});
             foundError = true;
 
         } else if (email.length === 0) {
-            this.setState({usernameError: 'Password is required'});
+            this.setState({titleError: 'Password is required'});
             foundError = true;
         }
 
@@ -90,7 +83,6 @@ class SignUp extends React.Component {
                 handleSubmit={this.handleSubmit}
                 obj={this.state}
                 handleChange={this.handleChange}
-                loader={this.state.loader}
                 handleRadiobuttonChange={this.handleRadiobuttonChange}
                 />
             </div>
@@ -105,3 +97,4 @@ SignUp.propTypes = {
 const mapDispatchToProps = dispatch => ({dispatch});
 
 export default connect(mapDispatchToProps) (SignUp);
+// export {SignUp as SignupLoader};

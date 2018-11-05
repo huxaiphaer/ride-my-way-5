@@ -5,7 +5,7 @@ const brandColor = <span style={{color: "#FFFFFF", marginLeft: '10px'}}>Ride My 
 export const NavigationBar = ()=>(
 
     <Navbar  className={`Header purple`}  brand={brandColor} right>
-        <NavItem href={'/login'}>Login</NavItem>
+        <NavItem onClick={() => console.log('test click')}>Login</NavItem>
         <NavItem href='components.html'>About</NavItem>
     </Navbar>
 
