@@ -1,0 +1,23 @@
+.colorPrimary{
+    color:purple;
+}
+.colorSecondary{
+    color: #4e004e;
+}
+
+.card {
+    margin-top: 200px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+
+.align-content{
+    align-content: center;
+
+}
+
+.errors {
+    color: #bf3f2b;
+    font-size: 8px;
+}
