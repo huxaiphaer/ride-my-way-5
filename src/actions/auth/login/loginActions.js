@@ -1,7 +1,6 @@
 import axios from 'axios';
 import {notify} from 'react-notify-toast';
 import {API_URLS} from '../../../constants/index';
-import {saveToken} from "../../../utils";
 import {requestLoadingAction} from "./loaderAction";
 
 function userLoginAction(user,history) {

@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="05aff424-79fe-450c-8d19-d5db876c1c76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/viewgetRides.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/loader/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loader/loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/auth/login/loginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/auth/login/loginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/dashboard/getRides.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/auth/login/loginActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/auth/login/loginActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/rides/ridesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/rides/ridesReducer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +33,7 @@
           <entry key="css" value="22" />
           <entry key="html" value="2" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="343" />
+          <entry key="js" value="347" />
           <entry key="json" value="4" />
           <entry key="md" value="2" />
           <entry key="scss" value="10" />
@@ -51,7 +48,7 @@
           <entry key="HTML" value="2" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="343" />
+          <entry key="JavaScript" value="347" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="10" />
           <entry key="SVG" value="1" />
@@ -97,7 +94,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -107,10 +104,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/auth/login/loginActions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/reducers/rides/ridesReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/loader/loader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/auth/login/loaderAction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -122,7 +158,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/auth/signup/signUp.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -182,7 +218,6 @@
         <option value="$PROJECT_DIR$/src/components/dashboard/viewgetRides.js" />
         <option value="$PROJECT_DIR$/src/components/footer/footer.js" />
         <option value="$PROJECT_DIR$/src/actions/auth/signup/signupActions.js" />
-        <option value="$PROJECT_DIR$/src/reducers/rides/ridesReducer.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/loaderReducer.js" />
         <option value="$PROJECT_DIR$/src/components/auth/signup/viewsignUp.js" />
@@ -195,7 +230,6 @@
         <option value="$PROJECT_DIR$/src/actions/auth/login/loginActionCreator.js" />
         <option value="$PROJECT_DIR$/src/tests/actions/auth/login/login.test.js" />
         <option value="$PROJECT_DIR$/src/tests/actions/auth/login/loader.test.js" />
-        <option value="$PROJECT_DIR$/src/actions/auth/login/loginActions.js" />
         <option value="$PROJECT_DIR$/src/tests/actions/auth/login/loginActions.test.js" />
         <option value="$PROJECT_DIR$/src/reducers/authReducers/signupReducer.js" />
         <option value="$PROJECT_DIR$/src/tests/actions/auth/signup/signupActions.test.js" />
@@ -216,10 +250,12 @@
         <option value="$PROJECT_DIR$/src/tests/reducers/ridesReducer.test.js" />
         <option value="$PROJECT_DIR$/src/tests/reducers/loaderReducer.test.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/loader/loader.js" />
         <option value="$PROJECT_DIR$/src/containers/auth/login/loginPage.js" />
         <option value="$PROJECT_DIR$/src/containers/auth/signup/signUp.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/loader/loader.js" />
+        <option value="$PROJECT_DIR$/src/actions/auth/login/loginActions.js" />
+        <option value="$PROJECT_DIR$/src/reducers/rides/ridesReducer.js" />
       </list>
     </option>
   </component>
@@ -272,7 +308,35 @@
               <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="loader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
@@ -286,6 +350,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="rides" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -430,6 +507,21 @@
       <workItem from="1541394927334" duration="12712000" />
       <workItem from="1541420767067" duration="5623000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(rides): implement create rides&#10;- ensure that users should create rides.&#10;&#10;[Finishes #161715707]">
+      <created>1541600877530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541600877531</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(rides): implement create rides&#10;- ensure that users should create rides.&#10;&#10;[Finishes #161715707]">
+      <created>1541601120438</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541601120438</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -465,19 +557,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76344000" />
+    <option name="totallyTimeSpent" value="76811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9174147" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8980044" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" sideWeight="0.42010772" side_tool="true" weight="0.24947146" />
-      <window_info id="npm" order="2" sideWeight="0.082585275" side_tool="true" visible="true" weight="0.24947146" />
+      <window_info id="npm" order="2" sideWeight="0.101995565" side_tool="true" visible="true" weight="0.24947146" />
       <window_info id="Favorites" order="3" sideWeight="0.42010772" side_tool="true" weight="0.24947146" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -485,7 +577,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.5961945" weight="0.37951806" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4038055" side_tool="true" weight="0.0" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24457832" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4566265" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -535,6 +627,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(rides): implement create rides&#10;- ensure that users should create rides.&#10;&#10;[Finishes #161715707]" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(rides): implement create rides&#10;- ensure that users should create rides.&#10;&#10;[Finishes #161715707]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -644,23 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/auth/login/loaderAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/auth/login/loginActions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/auth/signup/signupActionCreator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -734,13 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/rides/ridesReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -822,6 +894,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="26" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -856,16 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/loader/loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/auth/login/loginPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -880,7 +945,7 @@
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -890,7 +955,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/auth/signup/signUp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -901,6 +966,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/loader/loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/auth/login/loaderAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/auth/login/loginActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/rides/ridesReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
