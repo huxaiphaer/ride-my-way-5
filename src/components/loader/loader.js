@@ -2,7 +2,6 @@ import React from "react";
 import { ProgressBar } from "react-materialize";
 import PropTypes from 'prop-types';
 import {connect} from "react-redux";
-import  '../../styles/loader/loader.css';
 
 export const LoaderComponent = (props)=> {
     return props.isRequestLoading ?
