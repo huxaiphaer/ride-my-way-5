@@ -1,9 +1,7 @@
 import ACTION_TYPE from "../../actions/actionTypes";
 
 const initialState = {
-    visible: false,
-    responseData: {},
-    errorMessage: {}
+
 };
 const reducer = (state = initialState, action) => {
     switch (action.type) {
