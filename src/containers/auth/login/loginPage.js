@@ -87,6 +87,6 @@ Login.propTypes = {
 
 const mapDispatchToProps = dispatch => ({dispatch});
 
-export {Login as LoginTest}
+
 
 export default connect(mapDispatchToProps) (Login);
