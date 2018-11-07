@@ -1,37 +1,32 @@
-import {Button, Card, Col, Input, ProgressBar, Row} from "react-materialize";
-import  '../../styles/styles.scss'
 import React from "react";
-import styles from '../../styles/dashboard/driverdashboard.css'
+import {Button, Card, Col, Input, Row} from "react-materialize";
+import  '../../styles/dashboard/driverdashboard.scss'
+
+export const DriverComponent = ({handleSubmit, handleChange,obj})=>(
 
 
-export const DriverComponent = ({handleSubmit, handleChange,obj, loader})=>(
-
-    <div className={styles.card}>
-        <form onSubmit={handleSubmit}>
-            <Card className={styles["align-content"]}>
+            <Card>
+                <form onSubmit={handleSubmit}>
                 <Row>
-                    <Col>
-                        <label className={'header'}>  Make Ride Request </label>
+                    <Col s={12} m={12} l={12}>
+                        <label s={12} l={12} className={'header'}>  Make Ride Request </label>
                     </Col>
-                    <Col s={12}>
-                        { loader ? <ProgressBar className='purple' active='false' /> :''}
+                    <Input s={12} l={12} type={'text'} value={obj.name} label="Trip Name" name='name'  onChange={handleChange}/>
+                    <Col s={12} m={12} l={6}>
+                        <div className={'errors'} s={10}>{obj.nameError}</div>
                     </Col>
-                    <Input s={10} type={'text'} value={obj.name} label="Name" name='name'  onChange={handleChange}/>
-                    <Col>
-                        <div className={'errors'} s={10}>{obj.usernameError}</div>
+                    <Input s={12} l={12} type="text" value={obj.details} label="Trip Details" name='details' onChange={handleChange} />
+                    <Col s={12} m={12} l={6}>
+                        <div className={'errors'}>{obj.detailsError}</div>
                     </Col>
-
-                    <Input s={10} type="text" value={obj.details} label="Details" name='details' onChange={handleChange} />
-                    <Col>
-                        <div className={'errors'}>{obj.passwordError}</div>
+                    <Input s={12} l={12} type="text" value={obj.price} label="Price" name='price' onChange={handleChange} />
+                    <Col s={12} m={12} l={6}>
+                        <div className={'errors'}>{obj.priceError}</div>
                     </Col>
-                    <Input s={10} type="text" value={obj.price} label="Price" name='price' onChange={handleChange} />
-                    <Col>
-                        <div className={'errors'}>{obj.passwordError}</div>
+                    <Col s={12} m={12} l={12}>
+                        <Button waves='light' className={`purple button-align`} value='submit' type='submit' >Create Ride Request</Button>
                     </Col>
                 </Row>
-                <Button waves='light' className={`button-align`} value='submit' type='submit' >Create Ride Request</Button>
+                </form>
             </Card>
-        </form>
-    </div>
 );

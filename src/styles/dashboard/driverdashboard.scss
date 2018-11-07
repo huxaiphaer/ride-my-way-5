@@ -1,0 +1,61 @@
+.colorPrimary{
+    color:purple;
+}
+.colorSecondary{
+    color: #4e004e;
+}
+
+.card {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 30%;
+    max-width: 90%;
+    left: 0;
+    right: 0;
+    max-height: max-content;
+
+     @media screen and (max-width: 600px) and (max-width: 700px){
+    & {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        width: 60%;
+        max-width: 50%;
+        left: 0;
+        right: 0;
+        max-height: max-content;
+      }
+
+}
+
+}
+
+.align-content{
+    align-content: center;
+
+}
+
+.errors {
+    color: #bf3f2b;
+    font-size: 14px;
+}
+
+.header{
+    font-size: 19px;
+    color: #4e004e;
+    display: block;
+    text-align: center;
+}
+
+.header-align{
+    margin-left: 500px;
+}
+
+.button-align{
+    margin: auto;
+    color: white;
+    display: block;
+}

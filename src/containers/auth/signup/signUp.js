@@ -1,10 +1,10 @@
 import React from 'react';
-import {SignUpComponent} from "../../components/signup/viewsignUp";
+import {SignUpComponent} from "../../../components/auth/signup/viewsignUp";
 import PropTypes from 'prop-types';
 import {connect} from "react-redux";
-import userSignUpAction from "../../actions/auth/signup/signupActions";
+import userSignUpAction from "../../../actions/auth/signup/signupActions";
 
-class SignUp extends React.Component {
+export class SignUp extends React.Component {
 
     constructor(props) {
         super(props);
@@ -43,9 +43,9 @@ class SignUp extends React.Component {
     validateSignUp(){
 
         this.setState({
-            username: '',
-            email: '',
-            password: ''
+            usernameError:'',
+            passwordError:'',
+
         });
         const {username, email, password} = this.state;
         let foundError = false;

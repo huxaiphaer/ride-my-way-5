@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {connect} from "react-redux";
-import {LoginComponent} from "../../components/login/viewLogin";
-import userLoginAction from "../../actions/auth/login/loginActions";
+import {LoginComponent} from "../../../components/auth/login/viewLogin";
+import userLoginAction from "../../../actions/auth/login/loginActions";
 
-class Login extends React.Component {
+
+export class Login extends React.Component {
 
     constructor(props) {
         super(props);
@@ -33,8 +34,8 @@ class Login extends React.Component {
     validateSignUp(){
 
         this.setState({
-            username: '',
-            password: ''
+            usernameError:'',
+            passwordError:''
         });
         const {username, password} = this.state;
         let foundError = false;
@@ -85,5 +86,7 @@ Login.propTypes = {
 };
 
 const mapDispatchToProps = dispatch => ({dispatch});
+
+export {Login as LoginTest}
 
 export default connect(mapDispatchToProps) (Login);
