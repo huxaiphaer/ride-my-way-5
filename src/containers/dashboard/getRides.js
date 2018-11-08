@@ -10,12 +10,13 @@ class GetRides extends React.Component {
         this.props.rideCreateAction();
     }
 
+
     render() {
         const {rides} = this.props;
             return (
 
                 <div>
-                    <GetRidesComponent rides={rides.rides.rides} />
+                    <GetRidesComponent rides={rides.rides.rides} obj={this.props.history} />
                 </div>
             );
         }
@@ -26,4 +27,5 @@ const mapStateToProps = (state)=> {
         rides: state
     }
 }
+
 export default connect(mapStateToProps, {rideCreateAction}) (GetRides);

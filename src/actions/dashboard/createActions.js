@@ -17,7 +17,7 @@ export const driverCreateRideAction =(user, history) => dispatch => {
             user, config
         ).then(response => {
             notify.show(response.data.message, 'success', 6000);
-             // history.push(`/`);
+            history.push(`/list-rides`);
             dispatch(requestLoadingAction(false))
 
         }).catch(error => {
