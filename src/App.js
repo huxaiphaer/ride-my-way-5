@@ -23,7 +23,7 @@ class App extends Component {
                         <Route path='/login' component={Login}/>
                         <Route path='/dashboard-driver' component={DriverPage}/>
                         <Route path='/list-rides' component={GetRides}/>
-                        <Route path='/details-rides' component={DetailsPage}/>
+                        <Route path='/details/:id' component={DetailsPage}/>
                     </Switch>
                     </main>
                 </div>
