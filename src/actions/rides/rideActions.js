@@ -8,7 +8,7 @@ import ACTION_TYPE from "../actionTypes";
 
 export const fetchRides = (response) => ({
     'type': ACTION_TYPE.START_GET_RIDES,
-    'payload': response.data
+    'payload': response
 });
 
 
@@ -25,14 +25,15 @@ export const rideCreateAction =() => dispatch => {
     return axios.get(API_URLS.CREATE_RIDE,
         config
     ).then(response => {
-
-         dispatch(fetchRides(response.data.ride_offers));
         dispatch(requestLoadingAction(false));
+        const data = JSON.parse(response.data.ride_offers.replace(/'/g, "\""));
+        dispatch(fetchRides(data));
+
 
     }).catch(error => {
-        notify.show('Error while creating a ride.', 'error', 4000);
+        notify.show('Error while fetching rides', 'error', 4000);
         dispatch(requestLoadingAction(false))
     });
 
-}
+};
 export default rideCreateAction;

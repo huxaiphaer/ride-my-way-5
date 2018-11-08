@@ -6,7 +6,7 @@ import '../../../styles/landingpage/landingpage.scss'
 
 export const LoginComponent = ({handleSubmit, handleChange,handleRadiobuttonChange,obj})=>(
         <div className='bg-image'>
-            <Card>
+            <Card className='landing-card'>
                 <form onSubmit={handleSubmit}>
                 <Row>
                     <Col  s={12} m={12} l={12}>

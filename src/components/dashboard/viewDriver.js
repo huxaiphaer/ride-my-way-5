@@ -4,8 +4,8 @@ import  '../../styles/dashboard/driverdashboard.scss'
 
 export const DriverComponent = ({handleSubmit, handleChange,obj})=>(
 
-
-            <Card>
+    <div className={'bg-image'}>
+            <Card className={'landing-card'}>
                 <form onSubmit={handleSubmit}>
                 <Row>
                     <Col s={12} m={12} l={12}>
@@ -29,4 +29,5 @@ export const DriverComponent = ({handleSubmit, handleChange,obj})=>(
                 </Row>
                 </form>
             </Card>
+    </div>
 );

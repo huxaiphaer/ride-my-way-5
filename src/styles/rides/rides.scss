@@ -1,0 +1,48 @@
+.auto{
+  height:auto;
+  margin:60px;
+}
+
+.details-card {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  max-width: 90%;
+  left: 0;
+  right: 0;
+  max-height: max-content;
+}
+
+.button-align{
+  margin: auto;
+  color: white;
+  display: block;
+}
+
+.text-inputs{
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+}
+
+.text-results{
+  font-size: 15px;
+  color: #000;
+
+}
+
+.text-trip-header{
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  color: #000;
+}
+.text-align-center{
+  text-align: center;
+  font-size: 13px;
+  display: block;
+  color: #000;
+}
