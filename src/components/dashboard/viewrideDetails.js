@@ -2,7 +2,7 @@ import React from "react";
 import {Button, Card, Col, Row} from 'react-materialize'
 import  '../../styles/rides/rides.scss';
 
-export const GetRideDetails = ({singleride})=>(
+export const GetRideDetails = ({singleride,handleSubmit})=>(
 
     <div className={'bg-image'}>
         <Card className='details-card'>
@@ -41,7 +41,9 @@ export const GetRideDetails = ({singleride})=>(
             </Row>
             <Row>
                 <Col s={12} m={12} l={12}>
-                    <Button className={'purple button-align'}>ACCEPT RIDE</Button>
+                    <Button className={'purple button-align'}
+                            onClick={handleSubmit}
+                    >ACCEPT RIDE</Button>
                 </Col>
             </Row>
         </Card>
