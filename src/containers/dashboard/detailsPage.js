@@ -28,7 +28,7 @@ export class DetailsPage extends React.Component {
         const {id } = this.props.match.params;
 
         event.preventDefault();
-            this.props.dispatch(rideRequestCreationAction(id, this.state));
+        this.props.dispatch(rideRequestCreationAction(id, this.state));
     };
 
 

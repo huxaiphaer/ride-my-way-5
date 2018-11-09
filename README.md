@@ -5,3 +5,8 @@
 Ride-my App is a carpooling application that provides drivers with the ability to create ride offers and passengers to join available ride offers.
 
 A working application can be found here [here](https://ride-my-way-react-huxy.herokuapp.com/).
+
+#### How it Works.
+
+Both Passengers and Drivers interact on the same platform to create rides and as well as requesting them. Anyone can be a passenger
+or a driver on Ride My Way App.
