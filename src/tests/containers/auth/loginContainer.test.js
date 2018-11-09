@@ -35,15 +35,51 @@ describe('shallow render login', () => {
     });
 
     it('login without password less than 8 characters', () => {
+        wrapper = mount(
+            <Login data={{}} dispatch={store.dispatch} handleSubmit={jest.fn()}/>
+        );
         const data = {
-            username: 'hdhhd',
-            password: 'hhh',
+            username: 'hdhhdftdgtdtgd',
+            password: 'hhh3',
             passwordError:''
 
         };
 
-        wrapper.instance().setState(data);
+        wrapper.instance().setState({password:'yyu'})
+        wrapper.instance().handleSubmit({preventDefault: jest.fn})
 
+
+    });
+
+    it('login without password only letters', () => {
+        wrapper = mount(
+            <Login data={{}} dispatch={store.dispatch} handleSubmit={jest.fn()}/>
+        );
+        const data = {
+            username: 'hdhhdftdgtdtgd',
+            password: 'hhh3',
+            passwordError:''
+
+        };
+
+        wrapper.instance().setState({username:'hdhjhhfgh',password:'hbdhfbhdh'})
+        wrapper.instance().handleSubmit({preventDefault: jest.fn})
+
+    });
+
+    it('login without password only alphabets', () => {
+        wrapper = mount(
+            <Login data={{}} dispatch={store.dispatch} handleSubmit={jest.fn()}/>
+        );
+        const data = {
+            username: 'hdhhdftdgtdtgd',
+            password: 'hhh3',
+            passwordError:''
+
+        };
+
+        wrapper.instance().setState({username:'hdhjhhfgh',password:'12345678999'})
+        wrapper.instance().handleSubmit({preventDefault: jest.fn})
 
     });
 
