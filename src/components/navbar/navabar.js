@@ -12,6 +12,7 @@ return (    <Navbar  className={`Header purple`}  brand={brandColor} right>
             <div>
                 <NavItem href={'/dashboard-driver'}>Create Ride Request</NavItem>
                 <NavItem href='/list-rides'>View Rides</NavItem>
+                <NavItem href='/requests'>Ride Requests</NavItem>
                 <NavItem href='/login' >
                     Logout</NavItem>
             </div>

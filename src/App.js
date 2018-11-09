@@ -7,6 +7,7 @@ import Login from './containers/auth/login/loginPage'
 import DriverPage from './containers/dashboard/driverPage';
 import GetRides from './containers/dashboard/getRides';
 import DetailsPage from './containers/dashboard/detailsPage'
+import GetRideRequests from './containers/dashboard/getRideRequests';
 import LoaderComponent from "./components/loader/loader";
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
                         <Route path='/dashboard-driver' component={DriverPage}/>
                         <Route path='/list-rides' component={GetRides}/>
                         <Route path='/details/:id' component={DetailsPage}/>
+                        <Route path='/requests' component={GetRideRequests}/>
                     </Switch>
                     </main>
                 </div>

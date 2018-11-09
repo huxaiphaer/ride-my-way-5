@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 import {GetRidesComponent} from "../../components/dashboard/viewgetRides";
 import {rideCreateAction} from "../../actions/rides/rideActions";
 
-class GetRides extends React.Component {
+class GetRideRequests extends React.Component {
 
     componentDidMount() {
 
@@ -28,4 +28,4 @@ const mapStateToProps = (state)=> {
     }
 }
 
-export default connect(mapStateToProps, {rideCreateAction}) (GetRides);
+export default connect(mapStateToProps, {rideCreateAction}) (GetRideRequests);
