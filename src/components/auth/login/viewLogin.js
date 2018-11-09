@@ -17,7 +17,7 @@ export const LoginComponent = ({handleSubmit, handleChange,handleRadiobuttonChan
                         <div className={'errors'} s={10}>{obj.usernameError}</div>
                     </Col>
 
-                    <Input s={12} l={12} type="password" value={obj.password} label="password" name='password' onChange={handleChange} />
+                    <Input s={12} l={12} type="password" value={obj.password} label="Password" name='password' onChange={handleChange} />
                     <Col s={12} m={12} l={6}>
                         <div className={'errors'}>{obj.passwordError}</div>
                     </Col>
