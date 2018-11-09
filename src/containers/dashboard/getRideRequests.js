@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 import {GetRideRequestsComponent} from "../../components/dashboard/viewgetRideRequests";
 import {rideRequestCreateAction} from "../../actions/rides/getrideRequestAction";
 
-class GetRideRequests extends React.Component {
+export class GetRideRequests extends React.Component {
 
     constructor(props) {
         super(props);

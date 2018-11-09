@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05aff424-79fe-450c-8d19-d5db876c1c76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tests/actions/rides/createridesAction.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/actions/rides/getrideRequestAction.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/actions/rides/singleridesAction.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/components/rides/rideRequestsComponent.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/components/rides/viewgetRides.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/containers/rides/rides.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/reducers/getrequestReducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/reducers/singlerideReducer.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/dashboard/detailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/dashboard/detailsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/dashboard/getRideRequests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/dashboard/getRideRequests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/containers/auth/loginContainer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/containers/auth/loginContainer.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,8 +43,8 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="457" />
-          <entry key="json" value="4" />
+          <entry key="js" value="508" />
+          <entry key="json" value="5" />
           <entry key="md" value="6" />
           <entry key="scss" value="30" />
           <entry key="svg" value="1" />
@@ -48,8 +57,8 @@
           <entry key="CSS" value="26" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="457" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="508" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="SCSS" value="30" />
           <entry key="SVG" value="1" />
@@ -65,7 +74,7 @@
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
           <entry key="git.branch.checkout.local" value="5" />
-          <entry key="git.branch.create.new" value="7" />
+          <entry key="git.branch.create.new" value="8" />
           <entry key="git.branch.delete.local" value="1" />
         </counts>
       </usages-collector>
@@ -74,7 +83,7 @@
           <entry key="JavaScript Console" value="12" />
           <entry key="css" value="559" />
           <entry key="html" value="4" />
-          <entry key="js" value="9420" />
+          <entry key="js" value="10022" />
           <entry key="json" value="45" />
           <entry key="md" value="80" />
           <entry key="scss" value="464" />
@@ -86,7 +95,7 @@
           <entry key="CSS" value="559" />
           <entry key="HTML" value="4" />
           <entry key="JSON" value="45" />
-          <entry key="JavaScript" value="9432" />
+          <entry key="JavaScript" value="10034" />
           <entry key="PLAIN_TEXT" value="174" />
           <entry key="SCSS" value="464" />
         </counts>
@@ -99,109 +108,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/navbar/navabar.js">
+        <entry file="file://$PROJECT_DIR$/src/tests/reducers/getrequestReducer.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/rides/getrideRequestAction.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/dashboard/getRides.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="46" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/dashboard/viewrideDetails.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/dashboard/getRideRequests.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/dashboard/viewgetRideRequests.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/dashboard/detailsPage.js">
+        <entry file="file://$PROJECT_DIR$/src/tests/reducers/singlerideReducer.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/dashboard/viewgetRides.js">
+        <entry file="file://$PROJECT_DIR$/src/reducers/rides/singleRideReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -245,16 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/reducers/loaderReducer.js" />
-        <option value="$PROJECT_DIR$/src/tests/auth/login/login.test.js" />
-        <option value="$PROJECT_DIR$/src/tests/auth/login/actions/login.test.js" />
-        <option value="$PROJECT_DIR$/src/actions/auth/login/loginActionCreator.js" />
-        <option value="$PROJECT_DIR$/src/tests/actions/auth/login/login.test.js" />
-        <option value="$PROJECT_DIR$/src/tests/actions/auth/login/loader.test.js" />
-        <option value="$PROJECT_DIR$/src/actions/auth/login/loginActions.js" />
-        <option value="$PROJECT_DIR$/src/tests/actions/auth/login/loginActions.test.js" />
-        <option value="$PROJECT_DIR$/src/reducers/authReducers/signupReducer.js" />
-        <option value="$PROJECT_DIR$/src/tests/actions/auth/signup/signupActions.test.js" />
         <option value="$PROJECT_DIR$/src/tests/actions/dashboard/driverAction.test.js" />
         <option value="$PROJECT_DIR$/src/tests/components/login/loginComponent.test.js" />
         <option value="$PROJECT_DIR$/src/components/loader/loader.js" />
@@ -262,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/tests/components/login/driverComponent.test.js" />
         <option value="$PROJECT_DIR$/src/tests/actions/rides/ridesAction.test.js" />
         <option value="$PROJECT_DIR$/src/containers/auth/login/loginPage.js" />
-        <option value="$PROJECT_DIR$/src/tests/containers/auth/loginContainer.test.js" />
         <option value="$PROJECT_DIR$/src/containers/auth/signup/signUp.js" />
         <option value="$PROJECT_DIR$/src/tests/containers/auth/signupContainer.test.js" />
         <option value="$PROJECT_DIR$/src/containers/dashboard/driverPage.js" />
@@ -294,8 +214,19 @@
         <option value="$PROJECT_DIR$/src/containers/dashboard/getRides.js" />
         <option value="$PROJECT_DIR$/src/constants/index.js" />
         <option value="$PROJECT_DIR$/src/components/dashboard/viewrideDetails.js" />
-        <option value="$PROJECT_DIR$/src/containers/dashboard/detailsPage.js" />
         <option value="$PROJECT_DIR$/src/actions/rides/createRideRequestAction.js" />
+        <option value="$PROJECT_DIR$/src/tests/actions/rides/createridesAction.test.js" />
+        <option value="$PROJECT_DIR$/src/tests/actions/rides/getrideRequestAction.test.js" />
+        <option value="$PROJECT_DIR$/src/tests/actions/rides/singleridesAction.test.js" />
+        <option value="$PROJECT_DIR$/src/tests/components/rides/rideRequestsComponent.test.js" />
+        <option value="$PROJECT_DIR$/src/tests/components/rides/viewgetRides.test.js" />
+        <option value="$PROJECT_DIR$/src/containers/dashboard/getRideRequests.js" />
+        <option value="$PROJECT_DIR$/src/containers/dashboard/detailsPage.js" />
+        <option value="$PROJECT_DIR$/src/tests/containers/auth/loginContainer.test.js" />
+        <option value="$PROJECT_DIR$/src/tests/containers/rides/rides.test.js" />
+        <option value="$PROJECT_DIR$/src/tests/reducers/getrequestReducer.js" />
+        <option value="$PROJECT_DIR$/src/tests/reducers/getrequestReducer.test.js" />
+        <option value="$PROJECT_DIR$/src/tests/reducers/singlerideReducer.test.js" />
       </list>
     </option>
   </component>
@@ -343,26 +274,45 @@
             <path>
               <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
+              <item name="coverage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="navbar" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="rides" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -412,30 +362,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="Sign up reducers.should test sign up reducer while fail" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.get requests.should test  get requests (1)">
+    <configuration name="get requests.should test  get requests (1)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/tests/reducers/signupReducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/tests/reducers/singlerideReducer.test.js" />
       <test-names>
-        <test-name value="Sign up reducers" />
-        <test-name value="should test sign up reducer while fail" />
+        <test-name value="get requests" />
+        <test-name value="should test  get requests" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Sign up reducers.should test sign up reducer while getting message" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="get requests.should test  get requests" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/tests/reducers/signupReducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/tests/reducers/getrequestReducer.test.js" />
       <test-names>
-        <test-name value="Sign up reducers" />
-        <test-name value="should test sign up reducer while getting message" />
+        <test-name value="get requests" />
+        <test-name value="should test  get requests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="loaders.should test loaders (1)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/tests/reducers/getrequestReducer.test.js" />
+      <test-names>
+        <test-name value="loaders" />
+        <test-name value="should test loaders" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -445,50 +408,40 @@
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/tests/reducers/loaderReducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/tests/reducers/getrequestReducer.js" />
       <test-names>
         <test-name value="loaders" />
         <test-name value="should test loaders" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="rides.should test rides" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="shallow render details page.renders get rides 34" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/tests/reducers/ridesReducer.test.js" />
+      <test-file value="$PROJECT_DIR$/src/tests/containers/rides/rides.test.js" />
       <test-names>
-        <test-name value="rides" />
-        <test-name value="should test rides" />
+        <test-name value="shallow render details page" />
+        <test-name value="renders get rides 34" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Jest.Sign up reducers.should test sign up reducer while fail" />
-      <item itemvalue="Jest.Sign up reducers.should test sign up reducer while getting message" />
-      <item itemvalue="Jest.rides.should test rides" />
+      <item itemvalue="Jest.shallow render details page.renders get rides 34" />
       <item itemvalue="Jest.loaders.should test loaders" />
-      <item itemvalue="npm.start" />
+      <item itemvalue="Jest.loaders.should test loaders (1)" />
+      <item itemvalue="Jest.get requests.should test  get requests" />
+      <item itemvalue="Jest.get requests.should test  get requests (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
+        <item itemvalue="Jest.get requests.should test  get requests (1)" />
+        <item itemvalue="Jest.get requests.should test  get requests" />
+        <item itemvalue="Jest.loaders.should test loaders (1)" />
         <item itemvalue="Jest.loaders.should test loaders" />
-        <item itemvalue="Jest.rides.should test rides" />
-        <item itemvalue="Jest.Sign up reducers.should test sign up reducer while getting message" />
-        <item itemvalue="Jest.Sign up reducers.should test sign up reducer while fail" />
+        <item itemvalue="Jest.shallow render details page.renders get rides 34" />
       </list>
     </recent_temporary>
   </component>
@@ -570,63 +523,69 @@
       <option name="project" value="LOCAL" />
       <updated>1541697558581</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat(rides): get ride requests&#10;- ensure that users can get ride requests.&#10;&#10;[Delivers #161833311]">
+      <created>1541747055947</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1541747055947</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Sign_up_reducers_should_test_sign_up_reducer_while_success - 2018.11.07 at 15h 55m 03s.xml">
-      <configuration name="Sign up reducers.should test sign up reducer while success" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="shallow_render_details_page_renders_details_age_ - 2018.11.09 at 11h 23m 12s.xml">
+      <configuration name="shallow render details page.renders details age." configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Sign_up_reducers_should_test_sign_up_reducer_while_success - 2018.11.07 at 15h 55m 14s.xml">
-      <configuration name="Sign up reducers.should test sign up reducer while success" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="shallow_render_details_page_renders_details_age_ - 2018.11.09 at 11h 24m 23s.xml">
+      <configuration name="shallow render details page.renders details age." configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Sign_up_reducers_should_test_sign_up_reducer_while_fail - 2018.11.07 at 15h 55m 41s.xml">
-      <configuration name="Sign up reducers.should test sign up reducer while fail" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="shallow_render_details_page_renders_get_rides_ - 2018.11.09 at 11h 25m 45s.xml">
+      <configuration name="shallow render details page.renders get rides." configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Sign_up_reducers_should_test_sign_up_reducer_while_fail - 2018.11.07 at 15h 55m 52s.xml">
-      <configuration name="Sign up reducers.should test sign up reducer while fail" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="shallow_render_details_page_renders_get_rides_ - 2018.11.09 at 11h 26m 09s.xml">
+      <configuration name="shallow render details page.renders get rides." configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Sign_up_reducers_should_test_sign_up_reducer_while_getting_message - 2018.11.07 at 15h 56m 29s.xml">
-      <configuration name="Sign up reducers.should test sign up reducer while getting message" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="shallow_render_details_page_renders_get_rides_ - 2018.11.09 at 11h 26m 25s.xml">
+      <configuration name="shallow render details page.renders get rides." configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="Sign_up_reducers_should_test_sign_up_reducer_while_getting_message - 2018.11.07 at 15h 56m 43s.xml">
-      <configuration name="Sign up reducers.should test sign up reducer while getting message" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="shallow_render_details_page_renders_get_rides_34 - 2018.11.09 at 11h 28m 53s.xml">
+      <configuration name="shallow render details page.renders get rides 34" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="rides_should_test_rides - 2018.11.07 at 15h 58m 25s.xml">
-      <configuration name="rides.should test rides" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="rides_should_test_rides - 2018.11.07 at 15h 58m 35s.xml">
-      <configuration name="rides.should test rides" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="loaders_should_test_loaders - 2018.11.07 at 16h 00m 11s.xml">
+    <history-entry file="loaders_should_test_loaders - 2018.11.09 at 11h 31m 09s.xml">
       <configuration name="loaders.should test loaders" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="loaders_should_test_loaders - 2018.11.08 at 10h 45m 10s.xml">
-      <configuration name="loaders.should test loaders" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="loaders_should_test_loaders_(1) - 2018.11.09 at 11h 31m 31s.xml">
+      <configuration name="loaders.should test loaders (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="get_requests_should_test__get_requests - 2018.11.09 at 11h 31m 59s.xml">
+      <configuration name="get requests.should test  get requests" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="get_requests_should_test__get_requests_(1) - 2018.11.09 at 11h 33m 09s.xml">
+      <configuration name="get requests.should test  get requests (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94404000" />
+    <option name="totallyTimeSpent" value="99769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7698795" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7698795" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" sideWeight="0.42010772" side_tool="true" weight="0.24947146" />
       <window_info id="npm" order="2" sideWeight="0.23012048" side_tool="true" weight="0.24947146" />
       <window_info id="Favorites" order="3" sideWeight="0.42010772" side_tool="true" weight="0.24947146" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33373493" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3759036" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.5961945" visible="true" weight="0.10361446" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.5961945" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4038055" side_tool="true" weight="0.0" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24457832" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3253012" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -693,133 +652,19 @@
     <MESSAGE value="feat(rides): get ride requests&#10;- ensure that users can get ride requests.&#10;&#10;[Delivers #161833311]" />
     <option name="LAST_COMMIT_MESSAGE" value="feat(rides): get ride requests&#10;- ensure that users can get ride requests.&#10;&#10;[Delivers #161833311]" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/tests/dashboard/driverAction.test.js</url>
+          <line>24</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tests/containers/auth/loginContainer.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/containers/auth/signupContainer.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/components/signup/signupComponent.js" />
-    <entry file="file://$PROJECT_DIR$/src/tests/dashboard/driverAction.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/reducers/loginReducer.js" />
-    <entry file="file://$PROJECT_DIR$/src/reducers/authReducers/loginReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/reducers/loginReducer.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/authReducers/signupReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/reducers/signupReducer.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="26" column="28" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/reducers/loaderReducer.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/loader/loader.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/static/css/main.d109d1a6.chunk.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1237" selection-start-column="1237" selection-end-column="1237" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.coveralls.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/auth/signup/viewsignUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/actions/rides/ridesAction.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/reducers/ridesReducer.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/loader/loader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -854,13 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/rides/singleRideReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/auth/signup/signUp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
@@ -889,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/rides/singleRideAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -967,50 +798,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/dashboard/viewgetRideRequests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/rides/getrideRequestAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/dashboard/getRideRequests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/rides/createRideRequestAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1055,10 +846,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/dashboard/detailsPage.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/actions/rides/ridesAction.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/rides/createRideRequestAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/rides/getrideRequestAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/rides/singleRideAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/reducers/loginReducer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/actions/rides/singleridesAction.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/containers/auth/signupContainer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/dashboard/driverAction.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/components/rides/rideRequestsComponent.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dashboard/viewgetRideRequests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="50" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1067,11 +949,155 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/dashboard/driverPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="-115">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/actions/auth/login/loader.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/actions/auth/login/loginActions.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/components/login/driverComponent.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/components/rides/viewgetRides.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/actions/rides/getrideRequestAction.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/actions/rides/createridesAction.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/dashboard/getRideRequests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/dashboard/detailsPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/containers/auth/loginContainer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="31" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/containers/rides/rides.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/reducers/loaderReducer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/rides/getrideRequestsReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/rides/singleRideReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/reducers/getrequestReducer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/reducers/singlerideReducer.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
