@@ -70,11 +70,6 @@ describe('Mount login', () => {
             <Login data={{}} dispatch={store.dispatch} />
         );
 
-
     });
-
-
-
-
 
 });
