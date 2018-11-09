@@ -31,7 +31,7 @@ export const rideRequestCreateAction =(username) => dispatch => {
         dispatch(fetchRideRequests(data));
 
     }).catch(error => {
-        notify.show('Error while fetching ride requests.', 'error', 4000);
+        notify.show('Sorry you have no ride requests.', 'error', 4000);
         dispatch(requestLoadingAction(false))
     });
 

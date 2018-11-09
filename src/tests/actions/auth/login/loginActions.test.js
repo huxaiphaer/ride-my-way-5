@@ -8,6 +8,13 @@ const middlewares = [reduxThunk];
 const mockStore = configurestore(middlewares);
 notify.show = jest.fn();
 
+const localStorageMock = {
+    getItem: jest.fn(),
+    setItem: jest.fn(),
+    clear: jest.fn()
+};
+global.localStorage = localStorageMock;
+
 const mockData = {
 
         username: 'huxy@andela.com',
@@ -40,6 +47,8 @@ describe('login component', () => {
         ).then(() => {
             expect(store.getActions()).toEqual(expectedActions);
         });
+
+        expect(localStorage.getItem).toBeCalledWith('token')
 
     });
 });

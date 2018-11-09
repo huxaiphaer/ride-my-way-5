@@ -34,12 +34,6 @@ export class SignUp extends React.Component {
 
     };
 
-    handleRadiobuttonChange =(event)=>{
-        this.setState({
-            isdriver : parseInt(event.target.value)
-        });
-    }
-
     validateSignUp(){
 
         this.setState({
