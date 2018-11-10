@@ -10,7 +10,8 @@ export class DriverPage extends React.Component {
         super(props);
 
         this.state = {
-            name: '',
+            trip_start:'',
+            trip_end:'',
             nameError:'',
             details:'',
             detailsError:'',
@@ -18,7 +19,6 @@ export class DriverPage extends React.Component {
             priceError:'',
             driver_name: localStorage.getItem('username')
         };
-
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
 
@@ -26,13 +26,16 @@ export class DriverPage extends React.Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        this.props.dispatch(driverCreateRideAction(this.state, this.props.history));
-        this.setState({name:'', details: '', price:''});
+
+        const { trip_start, trip_end , details, price,driver_name} = this.state;
+        const name = `${trip_start} to ${trip_end}`;
+        const data ={name:name, details:details, price:price ,driver_name:driver_name};
+        this.props.dispatch(driverCreateRideAction(data, this.props.history));
+        this.setState({trip_start:'' ,trip_end: '', details: '', price:''});
     };
 
     handleChange =(evt) => {
         this.setState({ [evt.target.name]: evt.target.value });
-
     }
 
 
