@@ -14,7 +14,7 @@ Both Passengers and Drivers interact on the same platform to create rides and as
 or a driver on Ride My Way App.
 
 ## Getting Started
-This is how you can make this project run of your machine.
+This is how you can make this project run on your machine.
 
 ### Installation
 
