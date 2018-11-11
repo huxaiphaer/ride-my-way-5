@@ -4,11 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05aff424-79fe-450c-8d19-d5db876c1c76" name="Default Changelist" comment="Merge pull request #11 from huxaiphaer/fix-ui-errors-161837122&#10;&#10;#161837122 fix(ui): fix UI errors.">
+    <list default="true" id="05aff424-79fe-450c-8d19-d5db876c1c76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/viewDriver.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/viewDriver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/dashboard/driverPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/dashboard/driverPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/dashboard/driverdashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/dashboard/driverdashboard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,8 +35,8 @@
           <entry key="html" value="2" />
           <entry key="jpg" value="1" />
           <entry key="js" value="512" />
-          <entry key="json" value="5" />
-          <entry key="md" value="6" />
+          <entry key="json" value="7" />
+          <entry key="md" value="8" />
           <entry key="scss" value="31" />
           <entry key="svg" value="1" />
           <entry key="xml" value="1" />
@@ -50,9 +48,9 @@
           <entry key="CSS" value="26" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="5" />
+          <entry key="JSON" value="7" />
           <entry key="JavaScript" value="512" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="10" />
           <entry key="SCSS" value="31" />
           <entry key="SVG" value="1" />
           <entry key="XML" value="1" />
@@ -67,7 +65,7 @@
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
           <entry key="git.branch.checkout.local" value="5" />
-          <entry key="git.branch.create.new" value="9" />
+          <entry key="git.branch.create.new" value="11" />
           <entry key="git.branch.delete.local" value="1" />
         </counts>
       </usages-collector>
@@ -78,9 +76,9 @@
           <entry key="html" value="4" />
           <entry key="js" value="10429" />
           <entry key="json" value="45" />
-          <entry key="md" value="80" />
+          <entry key="md" value="283" />
           <entry key="scss" value="482" />
-          <entry key="txt" value="94" />
+          <entry key="txt" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -89,7 +87,7 @@
           <entry key="HTML" value="4" />
           <entry key="JSON" value="45" />
           <entry key="JavaScript" value="10441" />
-          <entry key="PLAIN_TEXT" value="174" />
+          <entry key="PLAIN_TEXT" value="408" />
           <entry key="SCSS" value="482" />
         </counts>
       </usages-collector>
@@ -100,35 +98,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/dashboard/viewDriver.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/dashboard/driverdashboard.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/dashboard/driverPage.js">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="355">
+              <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -150,6 +124,7 @@
       <find>&lt;</find>
       <find>card</find>
       <find>\</find>
+      <find>webpa</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/components</dir>
@@ -165,7 +140,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ch-add-readme" />
+        <entry key="$PROJECT_DIR$" value="add-readme" />
       </map>
     </option>
   </component>
@@ -202,7 +177,6 @@
         <option value="$PROJECT_DIR$/src/styles/rides/rides.scss" />
         <option value="$PROJECT_DIR$/src/components/dashboard/viewgetRides.js" />
         <option value="$PROJECT_DIR$/src/actions/dashboard/createActions.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/containers/dashboard/getRides.js" />
         <option value="$PROJECT_DIR$/src/constants/index.js" />
         <option value="$PROJECT_DIR$/src/components/dashboard/viewrideDetails.js" />
@@ -223,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/components/dashboard/viewDriver.js" />
         <option value="$PROJECT_DIR$/src/styles/dashboard/driverdashboard.scss" />
         <option value="$PROJECT_DIR$/src/containers/dashboard/driverPage.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -276,34 +251,7 @@
               <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ride_my_way_5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ride_my_way_5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -521,7 +469,21 @@
       <option name="project" value="LOCAL" />
       <updated>1541747055947</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix(UI): fix UI errors.&#10;- ensure that all pages are responsive.&#10;&#10;[Delivers #161837122]">
+      <created>1541883291942</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1541883291942</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ch(readme): Add readme &#10;- add read me">
+      <created>1541924501096</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1541924501096</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -557,11 +519,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103325000" />
+    <option name="totallyTimeSpent" value="104185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7698795" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" sideWeight="0.42010772" side_tool="true" weight="0.24947146" />
@@ -575,9 +536,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.5961945" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.5961945" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4038055" side_tool="true" weight="0.0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -643,7 +604,9 @@
     <MESSAGE value="feat(rides): create ride requests&#10;- ensure that users can create ride requests.&#10;&#10;[Delivers #161715765]" />
     <MESSAGE value="feat(rides): get ride requests&#10;- ensure that users can get ride requests.&#10;&#10;[Delivers #161833311]" />
     <MESSAGE value="Merge pull request #11 from huxaiphaer/fix-ui-errors-161837122&#10;&#10;#161837122 fix(ui): fix UI errors." />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #11 from huxaiphaer/fix-ui-errors-161837122&#10;&#10;#161837122 fix(ui): fix UI errors." />
+    <MESSAGE value="fix(UI): fix UI errors.&#10;- ensure that all pages are responsive.&#10;&#10;[Delivers #161837122]" />
+    <MESSAGE value="ch(readme): Add readme &#10;- add read me" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch(readme): Add readme &#10;- add read me" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -657,13 +620,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/reducers/rides/ridesReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="12" lean-forward="true" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -756,13 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/rides/rideActions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -801,13 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1068,11 +1010,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/dashboard/driverPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="293">
+          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="874" column="16" selection-start-line="874" selection-start-column="11" selection-end-line="874" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
         </state>
       </provider>
     </entry>
