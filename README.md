@@ -47,12 +47,20 @@ npm start
 * View ride offers.
 * Make ride requests.
 * View ride requests.
-*
+
 
 
 ## Languages & tools
 
-* React and redux
+* React and Redux.
+* Code climate.
+* Travis.
+* Python Flask.
+* Pivotal Tracker Board.
+
+## Authors
+
+* Lutaaya Huzaifah Idris
 
 
 
